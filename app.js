@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
         if (window.screen.width > 700) {
             audienciaImg.style.backgroundPositionY = `-${(window.scrollY - capacidades.offsetTop - (capacidades.clientHeight / 2)) / 2}px`;
         } else {
-            audienciaImg.style.backgroundPositionY = `-${(window.scrollY - audienciaImg.offsetTop ) / 2}px`;
+            audienciaImg.style.backgroundPositionY = `-${(window.scrollY - audienciaImg.offsetTop - (capacidades.clientHeight)) / 2}px`;
         }
     }
 });

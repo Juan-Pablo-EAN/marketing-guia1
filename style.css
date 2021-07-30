@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #31404a;
 }
 
 nav {
@@ -68,6 +69,12 @@ nav ul li a:hover {
 .cabecera {
     width: 100%;
     height: 550px;
+}
+
+@media screen and (max-width:650px) {
+    .cabecera {
+        height: 450px;
+    }
 }
 
 .cabecera .imagen {
@@ -273,6 +280,7 @@ section .integrantes .titulo h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background: white;
 }
 
 .diagnostico {
@@ -321,7 +329,7 @@ section .integrantes .titulo h4 {
 }
 
 .diagnostico .opciones div:hover {
-    animation: color1 0.5s both;
+    animation: color1 0.3s both;
 }
 
 @keyframes color1 {
@@ -334,12 +342,136 @@ section .integrantes .titulo h4 {
     }
 }
 
-@keyframes color2 {
-    0% {
-        background-color: #516ca9;
-        color: white;
-    } 100% {
-        background-color: #516ca9;
-        color: white;
+.propuesta {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+    background: white;
+}
+
+.propuesta .primerTexto, .propuesta .partesEstrategia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 3%;
+    width: auto;
+}
+
+.propuesta .primerTexto .titulo {
+    width: 100%;
+    font-size: larger;
+    text-align: left;
+    color: #31404a;
+    margin-bottom: 40px;
+}
+
+.propuesta .primerTexto .texto {
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
+
+.propuesta .publicaciones, .propuesta .fechas, .propuesta .contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3%;
+    height: auto;
+    width: auto;
+}
+
+.publicaciones .texto, .fechas .texto, .contenido .texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+}
+
+.partesEstrategia .texto h3 {
+    color: #516ca9;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.publicaciones .imagen1, .fechas .imagen1, .contenido .imagen1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px){
+    .publicaciones .texto, .fechas .texto, .contenido .texto {
+        order: 2;
+        margin-bottom: 50px;
     }
+    .publicaciones .imagen1, .fechas .imagen1, .contenido .imagen1{
+        order: 1;
+    } 
+}
+
+.publicaciones .imagen1 img, .fechas .imagen1 img, .contenido .imagen1 img{
+    width: 95%;
+    height: 100%;
+}
+
+footer {
+    padding: 50px 0 50px 0;
+}
+
+footer, footer a {
+    background: #31404a;
+    color: #adb8c0;
+}
+
+footer .titulos {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+}
+
+footer .titulos .materia {
+    margin-left: 15px;
+}
+
+footer .titulos .materia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .titulos .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .titulos .logo img { 
+    width: 100px;
+}
+
+footer .enlaces {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3%;
+
+}
+
+footer .enlaces ul {
+    margin: 0;
+}
+
+footer .enlaces ul li a {
+    word-break: break-all;
+}
+
+footer .enlaces .titulo {
+    font-size: large;
+    margin: 0 0 10px 10px;
 }
