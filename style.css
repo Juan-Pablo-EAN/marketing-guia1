@@ -358,7 +358,7 @@ section .integrantes .titulo h4 {
     justify-content: center;
     height: auto;
     margin-bottom: 3%;
-    width: auto;
+    width: 85%;
 }
 
 .propuesta .primerTexto .titulo {
@@ -366,7 +366,6 @@ section .integrantes .titulo h4 {
     font-size: larger;
     text-align: left;
     color: #31404a;
-    margin-bottom: 40px;
 }
 
 .propuesta .primerTexto .texto {
@@ -404,7 +403,7 @@ section .integrantes .titulo h4 {
     justify-content: center;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
     .publicaciones .texto, .fechas .texto, .contenido .texto {
         order: 2;
         margin-bottom: 50px;
