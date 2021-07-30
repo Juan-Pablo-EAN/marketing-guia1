@@ -78,6 +78,7 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .cabecera .imagen .opacidad {
@@ -224,10 +225,11 @@ section .integrantes .titulo h4 {
     width: 100%;
     background-image: url(https://livedemo00.template-help.com/wt_pro_2.0_free_sample_template/images/parallax-1-1920x1026.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: auto 115%;
     color: white;
     padding: 50px 0 50px 0;
+    background-attachment: fixed;
 }
 
 .audiencia .titulo {
@@ -238,13 +240,20 @@ section .integrantes .titulo h4 {
     align-items: center;
     font-size: xx-large;
     margin-bottom: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .audiencia .titulo{
+        font-size: large;
+    }
 }
 
 .audiencia .caracteristicas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 250px;
+    grid-gap: 5%;
 }
 
 .audiencia .caracteristicas .geograficas, .audiencia .caracteristicas .demograficas {
