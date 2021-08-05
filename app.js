@@ -68,6 +68,6 @@ const abrirModal = (titulo, texto, imagen) => {
     }, 1);
     document.body.style.overflow = "hidden";
     tituloModal.textContent = titulo;
-    textoModal.textContent = texto;
+    textoModal.innerHTML = texto;
     imagenModal.style.backgroundImage = `url(${imagen})`;
 }
