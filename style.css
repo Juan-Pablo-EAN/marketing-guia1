@@ -253,7 +253,8 @@ section .integrantes .titulo h4 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 5%;
+    grid-gap: 2%;
+    padding: 3%;
 }
 
 .audiencia .caracteristicas .geograficas, .audiencia .caracteristicas .demograficas {
@@ -262,8 +263,21 @@ section .integrantes .titulo h4 {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    align-items: center;
     padding: 30px;
     background-color: rgba(228, 226, 226, 0.39);
+}
+
+.audiencia .caracteristicas .geograficas h3, .audiencia .caracteristicas .demograficas h3 {
+    font-size: xx-large;
+}
+
+.audiencia .demograficas ul {
+    text-align: left;
+}
+
+.audiencia .demograficas ul li {
+    margin-bottom: 10px;
 }
 
 .audiencia .geograficas h3, .audiencia .demograficas h3 {
@@ -272,12 +286,33 @@ section .integrantes .titulo h4 {
 
 .informe {
     width: 100%;
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background: white;
+    padding-bottom: 70px;
+}
+
+.informe div {
+    padding: 0 5% 0 5%;
+}
+
+.informe h2 {
+    color: #31404a;
+    font-size: xx-large;
+    padding: 70px 0 70px 0;
+}
+
+.informe div img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.informe p {
+    color: #3d4a5a;
+    font-size: large;
+    text-align: justify;
 }
 
 .diagnostico {

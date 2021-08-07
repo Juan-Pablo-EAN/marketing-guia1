@@ -12,15 +12,7 @@ const modal = document.querySelector(".modal");
 
 window.addEventListener("scroll", () => {
     imgCabecera.style.backgroundPositionY = `-${window.scrollY / 3}px`;
-
-    if (window.scrollY > capacidades.offsetTop) {
-        if (window.screen.width > 700) {
-            audienciaImg.style.backgroundPositionY = `-${(window.scrollY - capacidades.offsetTop - (capacidades.clientHeight / 2)) / 2}px`;
-        } else {
-            audienciaImg.style.backgroundPositionY = `-${(window.scrollY - audienciaImg.offsetTop - (capacidades.clientHeight)) / 2}px`;
-        }
-    }
-
+    
     if (window.scrollY > window.screen.height) {
         navBarr.style.position = "fixed";
         navBarr.style.top = "0";
