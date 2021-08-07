@@ -95,9 +95,38 @@ const textos = [
                             </div>
                         </div>
     `,
-    `2Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`,
+    `
+    <div>
+                            <div>
+                                <p>
+                                    Según el portal de SimilarWeb entre Abril y Junio del 2021 ha tenido menos de 5000
+                                    visitas su sitio web, ninguna de estas fue por un dispositivo móvil y el único país
+                                    dónde se visita la página es desde Colombia
+                                </p>
+                            </div>
+                            <div class="divImagenes imgModal2">
+                                <img src="img/Imagen1-2.png" alt="Imagen de métricas">
+                            </div>
+                            <div>
+                                <p>
+                                    La mayor cantidad de visitas que ha tenido la página fue el 22 de Abril del presente
+                                    año, con un total de 371 visitantes
+                                </p>
+                            </div>
+                            <div class="divImagenes imgModal2">
+                                <img src="img/Imagen2-2.png" alt="Imagen de métricas">
+                            </div>
+                            <div>
+                                <p>
+                                    Y el 100% del contacto ha sido directamente por la página, ninguno por otros medio
+                                    (e-mail, redes sociales, etc)
+                                </p>
+                            </div>
+                            <div class="divImagenes imgModal2">
+                                <img src="img/Imagen3-2.png" alt="Imagen de métricas">
+                            </div>
+                        </div>
+    `,
     `3Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
     quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
     incidunt dolor doloremque?`,
