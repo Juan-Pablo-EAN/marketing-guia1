@@ -127,18 +127,84 @@ const textos = [
                             </div>
                         </div>
     `,
-    `3Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`,
-    `4Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`,
-    `5Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`,
-    `6Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`,
+    `
+    <div>
+                            Teniendo en cuenta el análisis del punto número 1 y 2, se puede concluir que la actividad
+                            que tiene la audiencia con los canales sociales de la marca es casi nula. Aunque se intentó
+                            verificar cuántas personas utilizan el botón de WhatsApp en su página de Facebook, fue
+                            imposible, pero según la cantidad de seguidores en redes sociales, sus pocas publicaciones y
+                            calidad de estás dan a conocer que Dataline tiene un descuidado manejo de social media para
+                            ser encontrados más fácil por su audiencia.
+                        </div>
+    `,
+    `
+    <div>
+                            <div>
+                                <p>
+                                    En su perfil de Instagram además de su información de contacto principal, las
+                                    historias ya mostradas donde se ven sus sedes a nivel nacional, que tipo de servicio
+                                    dan y sus principales clientes, tienen las siguientes publicaciones:
+                                </p>
+                            </div>
+                            <div class="divImagenes">
+                                <div>
+                                    <img src="img/img1-4.jpeg" alt="Imagen perfil competencia">
+                                </div>
+                                <div>
+                                    <img src="img/img2-4.jpeg" alt="Imagen perfil competencia">
+                                </div>
+                                <div>
+                                    <img src="img/img3-4.jpeg" alt="Imagen perfil competencia">
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Muestran sus servicios, con muy poca calidad, utilizando color de letra y fondo
+                                    iguales, sus ventajas del mercado y 3 símbolos de sus principales servicios, también
+                                    de muy baja calidad.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    En Facebook prácticamente es lo mismo, lo único diferente es que comparten en su
+                                    perfil, publicaciones de sus principales clientes, en este caso HP:
+                                </p>
+                            </div>
+                            <div class="divImagenes">
+                                <div>
+                                    <img src="img/img4-4.png" alt="Imagen perfil competencia">
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    Y en Twitter solo son mencionados así que no tienen perfil ni publicaciones.
+                                </p>
+                            </div>
+                        </div>
+    `,
+    `
+    <div>
+                            <p>
+                                Como sus publicaciones en Instagram y Facebook son de Mayo y Diciembre del 2020
+                                respectivamente, ya no muestra en qué horario las publicaron, pero se cree que es dentro
+                                de horario de oficina tradicional, sin tener en cuenta los horarios en que más se mueven
+                                y es más recomendable publicar en estas redes sociales.
+                            </p>
+                        </div>
+    `,
+    `
+    <div>
+                            <div>
+                                <p>
+                                    Esta es la publicación que más me gusta tiene, de resto ninguna otra publicación tiene
+                                    ninguna reacción o comentario en todas sus redes sociales.
+                                </p>
+                            </div>
+                            <div class="divImagenes">
+                                <img src="img/img3-4.jpeg" alt="Publicación con buenos resultados">
+                            </div>
+                        </div>
+    `,
     `7Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
     quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
     incidunt dolor doloremque?`,
