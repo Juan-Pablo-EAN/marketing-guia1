@@ -315,6 +315,33 @@ section .integrantes .titulo h4 {
     text-align: justify;
 }
 
+.informe .divBoton #buyerPerson {
+    border: none;
+    color: white;
+    outline: none;
+    background-color: #516ca9;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px;
+}
+
+.informe .divBoton #buyerPerson a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+}
+
+.informe .divBoton #buyerPerson:hover {
+    background-color: #3a4e7a;
+}
+
+.informe .divBoton #buyerPerson:active {
+    background-color:#516ca9;
+}
+
 .diagnostico {
     display: flex;
     flex-wrap: wrap;
