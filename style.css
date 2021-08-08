@@ -20,6 +20,18 @@ nav .botonNav {
     display: none;
 }
 
+nav .botonNav i {
+    cursor: pointer;
+}
+
+nav .botonNav i:hover {
+    color: rgb(216, 216, 216);
+}
+
+nav .botonNav i:active {
+    color: white;
+}
+
 nav ul {
     font-weight: bold;
     list-style: none;
@@ -48,6 +60,9 @@ nav ul li a:hover {
 @media screen and (max-width: 590px){
     nav ul {
         display: none;
+    }
+    nav {
+        background-color: #4b5b6e;
     }
     nav .botonNav {
         font-size: larger;

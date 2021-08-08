@@ -9,6 +9,19 @@ const tituloModal = document.querySelector(".tituloModal");
 const textoModal = document.querySelector(".textoModal");
 const imagenModal = document.querySelector(".imagenModal");
 const modal = document.querySelector(".modal");
+const listaNav = document.querySelector(".listaNav");
+const botonNav = document.querySelector(".botonNav");
+let visible = false;
+
+botonNav.addEventListener("click", () => {
+    if(visible){
+        listaNav.style.display = "none";
+        visible = false;
+    } else {
+        listaNav.style.display = "block";
+        visible = true;
+    }
+});
 
 window.addEventListener("scroll", () => {
     imgCabecera.style.backgroundPositionY = `-${window.scrollY / 3}px`;
