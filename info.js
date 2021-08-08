@@ -205,12 +205,71 @@ const textos = [
                             </div>
                         </div>
     `,
-    `7Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`,
-    `8Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error rem perspiciatis ex numquam
-    quisquam qui itaque eaque corporis sint iste voluptatum accusantium, ipsam explicabo aliquid cupiditate
-    incidunt dolor doloremque?`
+    `
+    <div>
+                            <div>
+                                <p>
+                                    Las oportunidades que deja esta competencia son abismales, porque, aunque sean el
+                                    primer resultado que aparece después de que se googlea “comercialización de equipos
+                                    de impresión, suministros, repuestos y servicio técnico a nivel nacional” su página
+                                    web es poco atractiva y sus redes sociales lo son aún más.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    La cuarentena acrecentó demasiado la utilización de estos canales para la
+                                    adquisición de varios productos y/o servicios y claramente, estos no se quedan
+                                    atrás, así que el desarrollo correcto y profesional de las redes sociales de la
+                                    empresa puede elevar sus niveles de ventas de manera impresionante, haciéndolos más
+                                    visibles para su target ofreciéndoles mejores experiencias.
+                                </p>
+                            </div>
+                        </div>
+    `,
+    `
+    <div>
+    <div>
+        <p>
+            <i>Equipos y suministros CTK</i> no tiene hasta el momento redes sociales por eso, las
+            oportunidades que se observan son demasiadas, empezando por el desarrollo de estas,
+            con un encargado o encargados de social media, que se enfoquen en posicionar a la
+            empresa en los primeros lugares con su nicho de mercado cuando estos coloquen su
+            descripción en los buscadores de todas estas.
+        </p>
+    </div>
+    <div>
+        <p>
+            El planteamiento completo incluye publicar contenido de calidad, en los horarios
+            correctos de publicación en cada red social:
+        </p>
+    </div>
+    <div class="divImagenes">
+        <img src="img/img1-5.png"
+            alt="Imagen Tomada de https://dia8publicidad.com/blog/mejores-horarios-para-publicar-en-redes/"
+            title="Imagen Tomada de https://dia8publicidad.com/blog/mejores-horarios-para-publicar-en-redes/">
+    </div>
+    <div>
+        <p>
+            Y utilizar concursos donde haya que darle like a las publicaciones que se hagan y
+            tagear amigos en los comentarios, para aumentar su visibilidad según las reglas del
+            algoritmo que utilizan estas redes sociales para aumentar su popularidad. Cuando una
+            cuenta tiene varios seguidores reales y no “bots” automáticamente crea muchísima
+            seguridad y confianza en los nuevos seguidores (potenciales clientes) que lleguen y
+            requieran de los productos y/o servicios que ofrezca la empresa.
+        </p>
+    </div>
+    <div>
+        <p>
+            También se puede aprovechar los servicios de Instagram de reels y IGTV para subir
+            experiencias de clientes satisfechos, según el portal 
+            <a href="https://www.questionpro.com/" target="_blank">Question Pro</a> 
+            tener las experiencias de los clientes en las redes
+            sociales “Te ayuda a incrementar las referencias de boca a boca positivas y a
+            generar más clientes”.
+        </p>
+    </div>
+</div>
+    `
 ];
 
 const imagenes = [
