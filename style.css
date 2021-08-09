@@ -172,15 +172,17 @@ section .integrantes .titulo h4 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
     background-color: rgb(251, 253, 255);
-    padding-top: 70px;
+    padding: 70px 0 70px 0;
 }
 
 .acercaDe h3 {
     font-size: xx-large;
+    color: #3d4a5a;
 }
 
 .acercaDe h4 {
     font-size: x-large;
+    color: #3d4a5a;
 }
 
 .acercaDe .nombre, .acercaDe .imagen {
