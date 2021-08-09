@@ -203,10 +203,24 @@ section .integrantes .titulo h4 {
     padding-top: 30px;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 0px;
     padding-bottom: 70px;
+}
+
+.productos, .precios, .canales, .comunica {
+    padding: 3%;
+    text-align: center;
+    margin: 30px;
+    border-bottom: 1px solid #31404a;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.capacidades p {
+    text-align: justify;
 }
 
 @media screen and (max-width:640px) {
@@ -669,8 +683,23 @@ footer .enlaces .titulo {
 .fondoModal .textoModal .imgModal2{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 0px;
+    justify-content: center;
+    text-align: center;
 }
 
 .fondoModal .textoModal .imgModal2 img {
     border: none;
+    width: 80%;
+    display: flex;
+    justify-self: center;
+}
+
+.textos {
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+.fondoModal .textoModal h1 {
+    text-align: center;
 }

@@ -9,6 +9,7 @@ const preguntas = ["Qué canales sociales usan",
 const textos = [
     `
                          <div>
+                         <h1>DATALINE SAS</h1>
                             <h2>Instagram</h2>
                             <div>
                                 <p>
@@ -94,9 +95,100 @@ const textos = [
                                 <img src="img/Imagen10.png" alt="Twitter 1">
                             </div>
                         </div>
+                        <div>
+    <h1>SERVICOP</h1>
+    <div>
+        <p>
+            Al realizar la revisión en los diferentes medios sociales se evidencio que no cuenta con Instagram, Facebook
+            y Twitter.
+        </p>
+    </div>
+    <div>
+        <p>
+            El único canal digital que la empresa tiene es su sitio web, el cual tiene como nombre el siguiente dominio:
+            <br>
+            <a href="https://servicopdecolombia.com/">https://servicopdecolombia.com/</a>
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.1.png" alt="Imagen de pagina web de Servicop">
+    </div>
+    <div>
+        <p>
+            Dentro del sitio web se encuentra las siguientes páginas:
+        </p>
+    </div>
+    <div>
+        <ul>
+            <li>Inicio</li>
+            <li>Toner & Repuestos</li>
+            <li>Mantenimiento</li>
+            <li>Alquiler</li>
+            <li>Equipos</li>
+            <li>Contáctenos</li>
+        </ul>
+    </div>
+    <div>
+        <p>
+            Dentro de las categorías del sitio web se encuentran marcas reconocidas en este mercado como Konica Minolta,
+            Kiocera, Riso, Ricoh y canon.
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.2.png" alt="Marcas">
+    </div>
+    <div>
+        <p>
+            Al revisar el portafolio de productos que ofrece el sitio web de las diferentes marcas aliadas se encontró
+            que cuenta con imágenes de calidad, pero con una descripción de producto con poca información, solo se tiene
+            el claro el nombre y referencia, pero no hay aspectos técnicos o atributos relevantes que le permitan al
+            usuario hacer comparativos o solucionar dudas para poder comprar, sin contar que no cuenta con información
+            de precios.
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.3.png" alt="Toners">
+    </div>
+    <div>
+        <p>
+            Cuenta con un carro de compra el cual está ubicado en la parte superior derecha pero no tiene una pasarela
+            de pago que permita realizar la transacción en tiempo real.
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1..png" alt="Busqueda">
+    </div>
+    <div>
+        <p>
+            En caso de que se requiera contactar a la empresa en la página de contacto se encuentran los datos básicos
+            de contacto:
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.5.png" alt="Contacto">
+    </div>
+    <div>
+        <p>
+            También cuenta con un botón de WhatsApp para realizar una rápida consulta por dicha App ya configurado con
+            respuestas automáticas.
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.6.png" alt="Whatsapp">
+    </div>
+    <div>
+        <p>
+            Si el cliente desea dejar sus datos de contacto existe un formulario básico para dicho requerimiento.
+        </p>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.7.png" alt="Pagina">
+    </div>
+</div>
     `,
     `
     <div>
+    <h1>DATALINE SAS</h1>
                             <div>
                                 <p>
                                     Según el portal de SimilarWeb entre Abril y Junio del 2021 ha tenido menos de 5000
@@ -126,9 +218,33 @@ const textos = [
                                 <img src="img/Imagen3-2.png" alt="Imagen de métricas">
                             </div>
                         </div>
+                        <div>
+    <div>
+        <h1>SERVICOMP</h1>
+        <p>
+            Para realizar el análisis del sitio web se utilizó Similarweb.
+        </p>
+        <P>Resultados:</P>
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.8.png" alt="SimilarWeb">
+    </div>
+    <div class="divImagenes imgModal2">
+        <img src="img/img1.9.png" alt="SimilarWeb">
+    </div>
+    
+    <div>
+        <p>
+            El tráfico de visitas del sitio es muy bajo, lo que evidencia que el dueño del domino, en este caso,
+            Servicop no ha hecho ningún trabajo de Google Analytics ni ha he creado estrategias de posicionamiento en
+            los principales buscadores.
+        </p>
+    </div>
+</div>
     `,
     `
     <div>
+    <h1>DATALINE SAS</h1>
                             Teniendo en cuenta el análisis del punto número 1 y 2, se puede concluir que la actividad
                             que tiene la audiencia con los canales sociales de la marca es casi nula. Aunque se intentó
                             verificar cuántas personas utilizan el botón de WhatsApp en su página de Facebook, fue
@@ -136,6 +252,16 @@ const textos = [
                             calidad de estás dan a conocer que Dataline tiene un descuidado manejo de social media para
                             ser encontrados más fácil por su audiencia.
                         </div>
+                        <div>
+    <h1>SERVICOMP</h1>
+    <div>
+        <p>
+            Al no tener redes sociales no es posible identificar la audiencia de los canales sociales, y por el bajo
+            tráfico en su sitio web las métricas no son suficientes para realizar un análisis estratégico sobre su
+            audiencia.
+        </p>
+    </div>
+</div>
     `,
     `
     <div>
@@ -181,9 +307,18 @@ const textos = [
                                 </p>
                             </div>
                         </div>
+                        <div>
+    <h1>SERVICOMP</h1>
+    <div>
+        <p>
+        No poseen ningún tipo de publicación para poder clasificar o determinar alguna categoría o tipo de post.
+        </p>
+    </div>
+</div>
     `,
     `
     <div>
+    <h1>DATALINE SAS</h1>
                             <p>
                                 Como sus publicaciones en Instagram y Facebook son de Mayo y Diciembre del 2020
                                 respectivamente, ya no muestra en qué horario las publicaron, pero se cree que es dentro
@@ -191,9 +326,18 @@ const textos = [
                                 y es más recomendable publicar en estas redes sociales.
                             </p>
                         </div>
+                        <div>
+    <h1>SERVICOMP</h1>
+    <div>
+        <p>
+        Al no tener publicación no permite identificar horarios para ser estratégicamente efectivos con la audiencia.
+        </p>
+    </div>
+</div>
     `,
     `
     <div>
+    <h1>DATALINE SAS</h1>
                             <div>
                                 <p>
                                     Esta es la publicación que más me gusta tiene, de resto ninguna otra publicación tiene
@@ -204,9 +348,26 @@ const textos = [
                                 <img src="img/img3-4.jpeg" alt="Publicación con buenos resultados">
                             </div>
                         </div>
+                        <div>
+    <h1>SERVICOMP</h1>
+    <div>
+        <p>
+            La empresa no ha trabajado en comunicación para poder tener una recopilación de información para determinar
+            buenas y malas prácticas en medios digitales.
+        </p>
+    </div>
+    <div>
+        <p>
+            Como falencia en su sitio web es que no existe informaciones claras de la compañía ni de los productos que
+            ofrecen, ya que el cliente no puede comprar en línea, ni verificar características y especificaciones del
+            portafolio.
+        </p>
+    </div>
+</div>
     `,
     `
     <div>
+    <h1>DATALINE SAS</h1>
                             <div>
                                 <p>
                                     Las oportunidades que deja esta competencia son abismales, porque, aunque sean el
@@ -225,9 +386,39 @@ const textos = [
                                 </p>
                             </div>
                         </div>
+                        <div>
+    <h1>SERVICOMP</h1>
+    <div>
+        <p>
+            El análisis de la información es clave para determinar la efectividad de las acciones realizadas dentro de
+            las estrategias de las empresas, en este caso la compañía no tiene un ecosistema digital definido lo que
+            dificulta la visibilidad para la audiencia en los medios digitales.
+        </p>
+    </div>
+    <div>
+        <p>
+            Se puede reconstruir en sitio web pensando uy teniendo claro cuál va a ser la audiencia o cliente ideal para
+            la compañía buscando la interacción con su target hablando el mismo idioma y brindando información de
+            calidad que permita transformar el contenido de valor en ventas.
+        </p>
+    </div>
+    <div>
+        <p>
+            Crear una comunidad por medio de las principales redes permite llegar a una audiencia para desarrollar y
+            posicionar la marca en redes, lo cual servirá para generar tráfico a su sitio web.
+        </p>
+    </div>
+    <div>
+        <p>
+            Si lo observamos desde el punto de vista de la competencia existe muchas falencias que se pueden aprovechar
+            para posicionar la marca en este caso CTK en el mercado o medios digitales.
+        </p>
+    </div>
+</div>
     `,
     `
     <div>
+    <h1>DATALINE SAS</h1>
     <div>
         <p>
             <i>Equipos y suministros CTK</i> no tiene hasta el momento redes sociales por eso, las
@@ -266,6 +457,40 @@ const textos = [
             tener las experiencias de los clientes en las redes
             sociales “Te ayuda a incrementar las referencias de boca a boca positivas y a
             generar más clientes”.
+        </p>
+    </div>
+</div>
+<div>
+    <div>
+        <p>
+            En el caso de CTK se sugiere tener en cuenta los siguientes aspectos:
+        </p>
+    </div>
+    <div>
+        <p>
+            <b>Buyer Persona:</b> Conocer realmente su audiencia o cliente ideal.
+        </p>
+    </div>
+    <div>
+        <p>
+            <b>Marketing mix:</b> Tener claro su estrategia de mercadeo tradicional, es decir, tener claro su
+            portafolio,
+            estrategia de precios, sus campañas promocionales y sus canales de distribución.
+        </p>
+    </div>
+    <div>
+        <p>
+            <b>Crear contenido de valor:</b> Puede sonar común, pero es mejor vender experiencias que productos a los
+            clientes,
+            si se crea contenido de valor a la audiencia el posicionamiento de marca será más efectivo, siempre y cuando
+            se mida en el número de seguidores junto con el nivel de facturación.
+        </p>
+    </div>
+    <div>
+        <p>
+            Para complementar el tema del contenido se deben tener en cuenta los horarios sugeridos para publicar,
+            siempre y cuando se tenga claro que redes sociales se van a utilizar (Instagram, Facebook, Twitter,
+            Tiktok,etc) como se evidencio en el análisis del primer competidor.
         </p>
     </div>
 </div>
