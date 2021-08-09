@@ -500,6 +500,10 @@ section .integrantes .titulo h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.partesEstrategia .texto p {
+    text-align: justify;
+}
+
 .publicaciones .imagen1, .fechas .imagen1, .contenido .imagen1 {
     width: auto;
     display: flex;
