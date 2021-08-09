@@ -207,14 +207,13 @@ section .integrantes .titulo h4 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 0px;
+    grid-gap: 30px;
     padding-bottom: 70px;
 }
 
 .productos, .precios, .canales, .comunica {
     padding: 3%;
     text-align: center;
-    margin: 30px;
     border-bottom: 1px solid #31404a;
     display: flex;
     align-items: center;
@@ -229,9 +228,12 @@ section .integrantes .titulo h4 {
     .capacidades .canales {
         width: 100%;
     }
+    .capacidades {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
 
-.capacidades .productos, .capacidades .precios {
+.capacidades .productos, .capacidades .precios, .canales, .comunica {
     text-align: center;
     padding: 20px;
     display: flex;
